@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="utf-8"?>
-<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
     xmlns:app="http://schemas.android.com/apk/res-auto"
     xmlns:tools="http://schemas.android.com/tools"
     android:id="@+id/main"
@@ -8,13 +8,28 @@
     tools:context=".About">
 
     <TextView
-        android:id="@+id/textView"
+        android:id="@+id/textabout"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:layout_marginTop="40dp"
-        android:textAlignment="center"
+        android:layout_marginBottom="30dp"
+        android:text="TENTANG APLIKASI"
+        android:layout_centerHorizontal="true"
         android:textSize="30dp"
-        android:layout_weight="1"
-        android:text="TENTANG APLIKASI" />
+        android:fontFamily="@"
+        />
 
-</LinearLayout>
+    <TextView
+        android:id="@+id/textdeskabout"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/textabout"
+        android:layout_centerHorizontal="true"
+        android:text="Aplikasi ini dirancang untuk membantu Anda menemukan berbagai produk skincare yang sesuai dengan kebutuhan kulit Anda. Dengan fitur pencarian dan kategori yang mudah digunakan, temukan produk terbaik dengan mudah dan cepat."
+        android:justificationMode="inter_word"
+        android:lineSpacingMultiplier="1.5"
+        android:layout_marginStart="7dp"
+        android:layout_marginEnd="10dp">
+    </TextView>
+
+</RelativeLayout>

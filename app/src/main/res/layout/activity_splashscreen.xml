@@ -8,11 +8,12 @@
     tools:context=".splashscreen">
 
     <ImageView
-        android:id="@+id/imageView3"
-        android:layout_width="224dp"
-        android:layout_height="242dp"
-        android:layout_centerHorizontal="true"
+        android:id="@+id/Imagesplash"
+        android:layout_width="362dp"
+        android:layout_height="404dp"
         android:layout_centerInParent="true"
-        android:src="@drawable/foto1" />
+        android:layout_centerHorizontal="true"
+        android:scaleType="centerCrop"
+        android:src="@drawable/splash" />
 
 </RelativeLayout>
