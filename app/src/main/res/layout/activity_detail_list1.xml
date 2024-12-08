@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/main"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".DetailList1">
+
+    <ImageView
+        android:id="@+id/image1"
+        android:layout_width="346dp"
+        android:layout_height="354dp"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="20dp"
+        android:layout_marginBottom="8dp"
+        android:scaleType="centerCrop"
+        android:src="@drawable/moisturizer" />
+
+    <TextView
+        android:id="@+id/textmois"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Moisturizer"
+        android:layout_centerHorizontal="true"
+        android:textSize="16dp"
+        android:textStyle="bold"
+        android:layout_marginBottom="20dp"
+        android:layout_below="@id/image1"/>
+
+    <TextView
+        android:id="@+id/textdeskripsi0"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Moisturizer adalah produk perawatan kulit yang dirancang untuk menjaga kelembapan dan hidrasi kulit. Fungsinya adalah untuk mencegah kulit kering, menjaga elastisitas, dan melindungi kulit dari iritasi atau kerusakan akibat faktor lingkungan seperti polusi dan sinar UV. "
+        android:layout_centerHorizontal="true"
+        android:justificationMode="inter_word"
+        android:lineSpacingMultiplier="1.5"
+        android:layout_marginStart="7dp"
+        android:layout_marginEnd="10dp"
+        android:layout_below="@id/textmois" />
+
+</RelativeLayout>

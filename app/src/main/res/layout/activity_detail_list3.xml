@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/main"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".DetailList3">
+
+    <ImageView
+        android:id="@+id/image4"
+        android:layout_width="350dp"
+        android:layout_height="411dp"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="20dp"
+        android:layout_marginBottom="16dp"
+        android:scaleType="centerCrop"
+        android:src="@drawable/sunscreen" />
+
+    <TextView
+        android:id="@+id/textsuns"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Sunscreen"
+        android:layout_centerHorizontal="true"
+        android:textSize="16dp"
+        android:textStyle="bold"
+        android:layout_marginBottom="20dp"
+        android:layout_below="@id/image4"/>
+
+    <TextView
+        android:id="@+id/textdeskripsisuns"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Sunscreen adalah produk pelindung kulit yang melindungi dari kerusakan akibat paparan sinar matahari, terutama sinar ultraviolet (UV). Sunscreen bekerja dengan menyerap atau memantulkan sinar UV untuk mencegah efek berbahaya "
+        android:layout_centerHorizontal="true"
+        android:justificationMode="inter_word"
+        android:lineSpacingMultiplier="1.5"
+        android:layout_marginStart="7dp"
+        android:layout_marginEnd="10dp"
+        android:layout_below="@id/textsuns" />
+</RelativeLayout>

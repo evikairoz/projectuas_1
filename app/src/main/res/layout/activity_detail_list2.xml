@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/main"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".DetailList2">
+
+    <ImageView
+        android:id="@+id/image3"
+        android:layout_width="317dp"
+        android:layout_height="329dp"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="20dp"
+        android:layout_marginBottom="10dp"
+        android:scaleType="centerCrop"
+        android:src="@drawable/facial_wash" />
+
+    <TextView
+        android:id="@+id/textfacial"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Facial Wash"
+        android:layout_centerHorizontal="true"
+        android:textSize="16dp"
+        android:textStyle="bold"
+        android:layout_marginBottom="20dp"
+        android:layout_below="@id/image3"/>
+
+    <TextView
+        android:id="@+id/textdeskripsifacial"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Facial wash adalah pembersih wajah yang digunakan untuk membersihkan kulit dari kotoran, minyak berlebih, dan sisa makeup. Produk ini dirancang untuk menjaga kebersihan pori-pori dan membantu mencegah masalah kulit seperti jerawat. "
+        android:layout_centerHorizontal="true"
+        android:justificationMode="inter_word"
+        android:lineSpacingMultiplier="1.5"
+        android:layout_marginStart="7dp"
+        android:layout_marginEnd="10dp"
+        android:layout_below="@id/textfacial" />
+</RelativeLayout>
