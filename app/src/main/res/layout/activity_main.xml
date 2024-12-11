@@ -7,6 +7,18 @@
     android:layout_height="match_parent"
     android:orientation="vertical"
     tools:context=".MainActivity" >
+
+    <ImageView
+        android:id="@+id/imagebtn"
+        android:layout_width="339dp"
+        android:layout_height="287dp"
+        android:scaleType="centerCrop"
+        android:layout_marginTop="50dp"
+        android:layout_marginBottom="10dp"
+        android:layout_centerHorizontal="true"
+        android:layout_marginStart="20dp"
+        android:src="@drawable/foto_btn" />
+
     <Button
         android:id="@+id/btnlist"
         android:layout_width="match_parent"
@@ -17,7 +29,7 @@
         android:layout_marginBottom="40dp"
         android:layout_marginStart="15dp"
         android:layout_marginEnd="15dp"
-        android:backgroundTint="#669bbc"
+        android:backgroundTint="#cdb4db"
         />
 
     <Button
@@ -27,7 +39,7 @@
         android:textSize="25dp"
         android:layout_marginStart="15dp"
         android:layout_marginEnd="15dp"
-        android:backgroundTint="#669bbc"
+        android:backgroundTint="#cdb4db"
         android:text="About" />
 </LinearLayout>
 

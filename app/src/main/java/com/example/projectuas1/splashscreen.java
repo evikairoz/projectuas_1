@@ -34,7 +34,7 @@ public class splashscreen extends AppCompatActivity {
 
         Glide.with(this)
                 .asGif()
-                .load(R.drawable.splash)  // File GIF di folder res/drawable
+                .load(R.drawable.splash_new)  // File GIF di folder res/drawable
                 .into(splashimage);
 
         // to show splashscreen selama 3 detik (3000 ms)
